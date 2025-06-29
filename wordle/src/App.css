@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.custom-btn {
+  color: #fff;
+  background-color: #1f2937;
+  outline: none;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  padding: 0.28rem 1.25rem;
+  margin-right: 0.5rem;   /* me-2 */
+  margin: 0.3rem;          /* m-2 */
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+/* Hover state */
+.custom-btn:hover {
+  background-color: #383e4a;
+  scale: 1.05;
+}
+
+/* Focus ring */
+.custom-btn:focus {
+  box-shadow: 0 0 0 4px #5d5d5e; /* focus:ring-4 focus:ring-gray-300 */
+}
+
+.container {
+    width: 100%;
+}
+
+@media (width >= 40rem /* 640px */) {
+  .container {
+    max-width: 40rem /* 640px */;
+  }
+}
+@media (width >= 48rem /* 768px */) {
+  .container {
+    max-width: 48rem /* 768px */;
+  }
+}
+@media (width >= 64rem /* 1024px */) {
+  .container {
+    max-width: 64rem /* 1024px */;
+  }
+}
+@media (width >= 80rem /* 1280px */) {
+  .container {
+    max-width: 80rem /* 1280px */;
+  }
+}
+@media (width >= 96rem /* 1536px */) {
+  .container {
+    max-width: 96rem /* 1536px */;
+  }
+}
